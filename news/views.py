@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import  HttpResponse, Http404
 import datetime as dt
 
@@ -8,25 +8,8 @@ def welcome(request):
 
 def news_of_day(request):
     date = dt.date.today()
-    day = convert_dates(date)
-    html = f'''
-         <html>
-            <body>
-                <h1>{day} {date.day}-{date.month}-{date.year}</h1>
-            </body>
-         </html>
-          '''
-    return HttpResponse(html)
 
-def convert_dates(dates):
-     # function to get the weekday number for a specific date
-
-     day_number = dt.date.weekday(dates)
-
-     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-
-     day = days[day_number]
-     return  day
+    return render(request,'all-news/today-news.html',{'date': date,})
 
 def past_days_news(request, past_date):
 
@@ -37,15 +20,10 @@ def past_days_news(request, past_date):
     except ValueError:
         # raise 404 when value is thrown
         raise Http404()
+        assert False
 
-    day = convert_dates(date)
-    html = f'''
-            <html>
-                <body>
-                    <h1>News for {day} {date.day}-{date.month}-{date.year}</h1>
-                </body>
-            </html>
-                '''
+    if date == dt.date.today():
+        return redirect(news_of_day)
 
 
-    return HttpResponse(html)
+    return render(request,'all-news/past-news.html',{'date': date,})
