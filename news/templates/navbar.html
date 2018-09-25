@@ -8,6 +8,12 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background:linear-gradient(-90deg, orange, yellow, orange);">
   <a class="navbar-brand" href="{% url 'newsToday' %}">The Moringa Tribune</a>
+  <nav class="navbar navbar-light navbar-right">
+  <form class="form-inline" action="{% url 'search_results' %}">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search Article" aria-label="Search"name="article">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
