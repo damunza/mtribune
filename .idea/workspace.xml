@@ -18,12 +18,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2112" />
+          <entry key="py" value="2115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2112" />
+          <entry key="Python" value="2115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,14 +43,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+            <state relative-caret-position="187">
+              <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
-                <marker date="1537865443498" expanded="true" signature="339:341" ph="..." />
+                <marker date="1537868470093" expanded="true" signature="339:341" ph="..." />
               </folding>
             </state>
           </provider>
@@ -65,16 +65,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="37">
-              <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
+              <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1537866559962" expanded="true" signature="106:390" ph="..." />
-                <marker date="1537866559962" expanded="true" signature="318:344" ph="..." />
-                <marker date="1537866559962" expanded="true" signature="851:877" ph="..." />
+                <marker date="1537869737376" expanded="true" signature="106:390" ph="..." />
+                <marker date="1537869737376" expanded="true" signature="318:344" ph="..." />
+                <marker date="1537869737376" expanded="true" signature="838:864" ph="..." />
               </folding>
             </state>
           </provider>
@@ -142,10 +142,10 @@
         <option value="$PROJECT_DIR$/tribune/urls.py" />
         <option value="$PROJECT_DIR$/news/admin.py" />
         <option value="$PROJECT_DIR$/news/tests.py" />
-        <option value="$PROJECT_DIR$/news/views.py" />
-        <option value="$PROJECT_DIR$/news/models.py" />
         <option value="$PROJECT_DIR$/tribune/settings.py" />
         <option value="$PROJECT_DIR$/news/urls.py" />
+        <option value="$PROJECT_DIR$/news/views.py" />
+        <option value="$PROJECT_DIR$/news/models.py" />
       </list>
     </option>
   </component>
@@ -215,12 +215,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="814" height="872" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24905184" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24905184" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3301887" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3301887" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -273,19 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1537866559962" expanded="true" signature="106:390" ph="..." />
-            <marker date="1537866559962" expanded="true" signature="318:344" ph="..." />
-            <marker date="1537866559962" expanded="true" signature="851:877" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tribune/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -311,11 +297,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+        <state relative-caret-position="187">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-            <marker date="1537865443498" expanded="true" signature="339:341" ph="..." />
+            <marker date="1537868470093" expanded="true" signature="339:341" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1537869737376" expanded="true" signature="106:390" ph="..." />
+            <marker date="1537869737376" expanded="true" signature="318:344" ph="..." />
+            <marker date="1537869737376" expanded="true" signature="838:864" ph="..." />
           </folding>
         </state>
       </provider>
