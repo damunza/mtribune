@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd0801bf-58c1-454a-999a-ddc985197dbc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/news/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/templates/all-news/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribune/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribune/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="cd0801bf-58c1-454a-999a-ddc985197dbc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -136,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -271,12 +263,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="814" height="872" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24905184" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24905184" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.26280323" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.26280323" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -369,19 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1537955505169" expanded="true" signature="160:161" ph="..." />
-            <marker date="1537955505169" expanded="true" signature="625:651" ph="..." />
-            <marker date="1537955505169" expanded="true" signature="1116:1193" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tribune/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -429,6 +407,19 @@
           <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding>
             <marker date="1537954089832" expanded="true" signature="104:140" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1537955505169" expanded="true" signature="160:161" ph="..." />
+            <marker date="1537955505169" expanded="true" signature="625:651" ph="..." />
+            <marker date="1537955505169" expanded="true" signature="1116:1193" ph="..." />
           </folding>
         </state>
       </provider>
